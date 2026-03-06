@@ -1,0 +1,39 @@
+# Binaries and build artifacts
+bin/
+dist/
+build/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go test artifacts
+*.test
+*.out
+coverage.out
+coverage.txt
+*.coverprofile
+
+# Go workspace and module caches
+go.work.sum
+
+# Vendor directory (optional; remove if vendoring is required)
+vendor/
+
+# Environment and local config
+.env
+.env.*
+*.local
+
+# Logs
+*.log
+
+# IDE/editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
